@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		
+		<title>Pike Admin - Free Bootstrap 4 Admin Template</title>
+		<meta name="description" content="Free Bootstrap 5.3.2 Admin Theme | Jeff Admin">
+		<meta name="author" content="Jeff Web Development - https://www.vzsfoto.hu">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="assets/images/favicon.ico">
+
+		<!-- Bootstrap CSS -->
+		<link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+<!--
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+-->
+		
+		<!-- Font Awesome CSS -->
+		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- Custom CSS -->
+		<link href="assets/css/style.css" rel="stylesheet" type="text/css" />		
+		
+		<!-- BEGIN CSS for this page -->
+
+		<!-- END CSS for this page -->
+				
+</head>
+
+<body class="adminbody">
+
+<div id="main">
+
+	<!-- top bar navigation -->
+	<div class="headerbar">
+
+		<!-- LOGO -->
+        <div class="headerbar-left">
+			<a href="index.html" class="logo"><img alt="Logo" src="assets/images/logo.png" /> <span>Admin</span></a>
+        </div>
+
+		<nav class="navbar navbar-custom">
+
+			<ul class="list-inline menu-start mb-0">
+				<li class="float-start">
+					<a class="button-menu-mobile open-left">
+						<i class="fa fa-fw fa-bars"></i>
+					</a>
+				</li>
+				<li class="float-start">
+					<span class="button-menu-mobile">
+						Table name
+					</span>
+				</li>
+				
+				<!--li class="list-inline-item notif">
+					<a role="button" href="#" class="btn btn-warning btn-sm mt-2"><span class="btn-label"><i class="fa fa-eye"></i></span>Megnéz</a>
+				</li>
+				<li class="list-inline-item notif">
+					<a role="button" href="#" class="btn btn-success btn-sm mt-2"><span class="btn-label"><i class="fa fa-plus"></i></span>Új felvitele</a>
+				</li>
+				<li class="list-inline-item notif">
+					<a role="button" href="#" class="btn btn-primary btn-sm mt-2"><span class="btn-label"><i class="fa fa-edit"></i></span>Módosítás</a>
+				</li>
+				<li class="list-inline-item notif">
+					<a role="button" href="#" class="btn btn-danger btn-sm mt-2"><span class="btn-label"><i class="fa fa-minus"></i></span>Töröl</a>
+				</li-->
+			</ul>
+			
+			
+			<ul class="list-inline float-end mb-0">
+				<li class="dropdown list-inline-item notif">
+					<a class="nav-link dropdown-toggle nav-user" data-bs-toggle="dropdown"  href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<img src="assets/images/avatars/admin.png" alt="Profile image" class="avatar-rounded">
+					</a>
+					<div class="dropdown-menu dropdown-menu-right profile-dropdown">
+						<div class="dropdown-item noti-title">
+							<h5 class="text-overflow"><small>Hello, admin</small> </h5>
+						</div>
+
+						<a href="#" class="dropdown-item notify-item">
+							<i class="fa fa-user"></i> <span>Profile</span>
+						</a>
+
+						<a href="#" class="dropdown-item notify-item">
+							<i class="fa fa-power-off"></i> <span>Logout</span>
+						</a>
+
+						<a target="_blank" href="https://www.vzsfoto.hu" class="dropdown-item notify-item">
+							<i class="fa fa-external-link"></i> <span>Jeff Admin</span>
+						</a>
+					</div>
+				</li>
+
+				<li class="list-inline-item">
+					<a href="logout" class="nav-link nav-user" role="button" aria-haspopup="false" aria-expanded="false">
+						<i class="fa fa-fw fa-sign-out"></i>
+					</a>
+				</li>
+
+			</ul>
+
+		</nav>
+
+
+	</div>
+	<!-- End Navigation -->
+	
+ 
+	<!-- Left Sidebar -->
+	<div class="left main-sidebar">	
+		<div class="sidebar-inner leftscroll">
+			<div id="sidebar-menu">
+				<ul>
+					<li class="submenu">
+						<a href="index.html"><i class="fa fa-fw fa-bars"></i><span> Dashboard </span> </a>
+					</li>
+
+					<li class="submenu">
+						<a href="#" class="active"><i class="fa fa-fw fa-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+						<ul class="list-unstyled">
+							<li class="active"><a href="tables-basic.html">Basic Tables</a></li>
+							<li><a href="tables-datatable.html">Data Tables</a></li>
+							<li><a href="forms.html">Forms</a></li>
+						</ul>
+					</li>
+
+					<li class="submenu">
+						<a href="#"><i class="fa fa-fw fa-table"></i> <span> Tables </span> <span class="menu-arrow"></span></a>
+						<ul class="list-unstyled">
+							<li><a href="tables-basic.html">Basic Tables</a></li>
+							<li><a href="tables-datatable.html">Data Tables</a></li>
+							<li><a href="forms.html">Forms</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+
+				<div class="clearfix"></div>
+			</div>        
+			<div class="clearfix"></div>
+		</div>
+	</div>
+	<!-- End Sidebar -->
+
+
+    <div class="content-page">
+	
+		<!-- Start content -->
+        <div class="content">
+            
+			<div class="container-fluid">
+			
+				<!--div class="row">
+					<div class="col-xl-12">
+						<div class="breadcrumb-holder">
+							<h1 class="main-title float-left">Tables</h1>
+							<ol class="breadcrumb float-right">
+								<li class="breadcrumb-item">Home</li>
+								<li class="breadcrumb-item active">Tables</li>
+							</ol>
+							<div class="clearfix"></div>
+						</div>
+					</div>
+				</div-->
+						
+						
+				<div class="row">
+						
+					<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mt-3">
+						<div class="card mb-3">
+							<div class="card-header">
+							
+								<!--div class="float-start">
+									<h3><i class="fa fa-table"></i> Hoverable rows table</h3>
+									Add <i>.table-hover</i> to enable a hover state on table rows within a 'tbody'. <a target="_blank" href="https://getbootstrap.com/docs/4.0/content/tables/#bordered-table">(more info)</a>
+								</div-->
+								<div class="float-start">
+									<a role="button" href="#" class="btn btn-warning mt-1 me-1"><span class="btn-label"><i class="fa fa-eye"></i></span>Megnéz</a>
+									<a role="button" href="#" class="btn btn-success mt-1 me-1"><span class="btn-label"><i class="fa fa-plus"></i></span>Új felvitele</a>
+									<a role="button" href="#" class="btn btn-primary mt-1 me-1"><span class="btn-label"><i class="fa fa-edit"></i></span>Módosítás</a>
+									<a role="button" href="#" class="btn btn-danger  mt-1 me-1"><span class="btn-label"><i class="fa fa-minus"></i></span>Töröl</a>
+								</div>
+								
+								
+								
+								<div class="float-end">
+									<nav aria-label="Page navigation example">
+									  <ul class="pagination justify-content-end" style="margin-top: 4px; margin-bottom: 0;">
+										<li class="page-item disabled">
+										  <a class="page-link">&laquo;</a>
+										</li>
+										<li class="page-item"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item"><a class="page-link" href="#">4</a></li>
+										<li class="page-item"><a class="page-link" href="#">5</a></li>
+										<li class="page-item">
+										  <a class="page-link" href="#">&raquo;</a>
+										</li>
+									  </ul>
+									</nav>									
+								</div>
+							</div>
+								
+							<div class="card-body">
+								
+								<table class="table table-responsive-xl table-hover table-striped" style="">
+								  <thead class="thead-info">
+									<tr>
+									  <th class="id">#id</th>
+									  <th class="string">String</th>
+									  <th class="integer">Integer</th>
+									  <th class="currency">Currency</th>
+									  <th class="boolean">Bool.</th>
+									  <th class="date">Date</th>
+									  <th class="time">Time</th>
+									  <th class="datetime">DateTime</th>
+									  <th class="actions">Actions</th>
+									</tr>
+								  </thead>
+								  <tbody>
+									<tr>
+									  <td class="id">1</td>
+									  <td class="string">Otto</td>
+									  <td class="integer">1 200</td>
+									  <td class="currency">3 345 Ft</td>
+									  <td class="boolean">0</td>
+									  <td class="date">2023. 12. 13.</td>
+									  <td class="time">14:22:34</td>
+									  <td class="datetime">2023. 12. 13. 14:22:34</td>
+									  <td class="actions">
+										<a role="button" href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="top" title="Megtekintés" data-original-title=""><i class="fa fa-eye"></i></a>
+										<a role="button" href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Módosítás" data-original-title=""><i class="fa fa-edit"></i></a>
+										<a role="button" href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Törlés" data-original-title=""><i class="fa fa-times"></i></a>
+									  </td>
+									</tr>
+									<tr class="last-visited">
+									  <td class="id">2</td>
+									  <td class="string">Otto</td>
+									  <td class="integer">1 200</td>
+									  <td class="currency">3 345 Ft</td>
+									  <td class="boolean">0</td>
+									  <td class="date">2023. 12. 13.</td>
+									  <td class="time">14:22:34</td>
+									  <td class="datetime">2023. 12. 13. 14:22:34</td>
+									  <td class="actions">
+										<a role="button" href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="top" title="Megtekintés" data-original-title=""><i class="fa fa-eye"></i></a>
+										<a role="button" href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Módosítás" data-original-title=""><i class="fa fa-edit"></i></a>
+										<a role="button" href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Törlés" data-original-title=""><i class="fa fa-times"></i></a>
+									  </td>
+									</tr>
+									<tr>
+									  <td class="id">3</td>
+									  <td class="string">Otto</td>
+									  <td class="integer">1 200</td>
+									  <td class="currency">3 345 Ft</td>
+									  <td class="boolean">0</td>
+									  <td class="date">2023. 12. 13.</td>
+									  <td class="time">14:22:34</td>
+									  <td class="datetime">2023. 12. 13. 14:22:34</td>
+									  <td class="actions">
+										<a role="button" href="#" class="btn btn-warning btn-sm" data-toggle="tooltip" data-placement="top" title="Megtekintés" data-original-title=""><i class="fa fa-eye"></i></a>
+										<a role="button" href="#" class="btn btn-primary btn-sm" data-toggle="tooltip" data-placement="top" title="Módosítás" data-original-title=""><i class="fa fa-edit"></i></a>
+										<a role="button" href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="Törlés" data-original-title=""><i class="fa fa-times"></i></a>
+									  </td>
+									</tr>
+								  </tbody>
+								</table>
+
+								<div class="float-start">
+									<b>Text info</b>
+								</div>
+								
+								<div class="float-end">
+									<nav aria-label="Page navigation example">
+									  <ul class="pagination justify-content-end" style="margin-top: 4px; margin-bottom: 0;">
+										<li class="page-item disabled">
+											<a class="page-link">&laquo;</a>
+										</li>
+										<li class="page-item"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item"><a class="page-link" href="#">4</a></li>
+										<li class="page-item"><a class="page-link" href="#">5</a></li>
+										<li class="page-item">
+											<a class="page-link" href="#">&raquo;</a>
+										</li>
+									  </ul>
+									</nav>									
+								</div>
+
+							</div>							
+						</div><!-- end card-->					
+					</div>
+
+				</div>			
+			
+
+
+
+            </div>
+			<!-- END container-fluid -->
+
+		</div>
+		<!-- END content -->
+
+    </div>
+	<!-- END content-page -->
+    
+	<footer class="footer">
+		<div class="float-start">
+			Copyright <a target="_blank" href="#">Jeff Admin 2</a>
+		</div>
+		<div class="float-end">
+			Powered by <a target="_blank" href="https://www.vzsfoto.hu"><b>Jeff Shoemaker</b></a>
+		</div>
+	</footer>
+
+</div>
+<!-- END main -->
+
+<!--script src="assets/js/modernizr.min.js"></script-->
+<script src="assets/js/jquery.min.js"></script>
+<!--script src="assets/js/moment.min.js"></script-->
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+
+
+<script src="assets/js/detect.js"></script>
+<script src="assets/js/fastclick.js"></script>
+<!--script src="assets/js/jquery.blockUI.js"></script-->
+<script src="assets/js/jquery.nicescroll.js"></script>
+
+<!-- App js -->
+<script src="assets/js/pikeadmin.js"></script>
+
+
+<!-- BEGIN Java Script for this page -->
+<script>
+	$(function () {
+		$('[data-toggle="tooltip"]').tooltip()
+		//$('[data-toggle="popover"]').popover()
+	})
+</script>
+<!-- END Java Script for this page -->
+
+</body>
+</html>
